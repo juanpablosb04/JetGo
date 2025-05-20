@@ -18,16 +18,16 @@
     }
 
     .botonInicio {
-      height: 55px;
-      width: 156px;
+      height: 65px;
+      width: 226px;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 340px;
+      margin-top: 380px;
       font-size: 23px;
       text-decoration: none;
       color: white;
-      background-color: #012030;
+      background-color: #45C4B0;
       border: none;
       border-radius: 10px;
       cursor: pointer;
@@ -37,7 +37,7 @@
     .botonInicio:hover {
       background-color: #13678A;
       color: #012030;
-      border-radius: 10px 20px 10px 20px;
+      border-radius: 20px 10px 20px 10px;
     }
 
     .contenido {
@@ -81,8 +81,8 @@
       align-items: center;
       text-decoration: none;
       color: white;
-      font-size: 14px;
-      background-color: #012030;
+      font-size: 18px;
+      background-color: #45C4B0;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -97,8 +97,8 @@
       align-items: center;
       text-decoration: none;
       color: white;
-      font-size: 14px;
-      background-color: #012030;
+      font-size: 18px;
+      background-color: #45C4B0;
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -113,8 +113,8 @@
       align-items: center;
       text-decoration: none;
       color: white;
-      font-size: 14px;
-      background-color: #012030;
+      font-size: 18px;
+      background-color: #45C4B0;
       border: none;
       border-radius: 8px;
       cursor: pointer;
