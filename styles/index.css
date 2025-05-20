@@ -1,0 +1,140 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    .seccion_inicio {
+      height: 100vh;
+      background-image:             
+        url('/JetGo/Images/index.png');
+      background-color: #13678A;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .botonInicio {
+      height: 55px;
+      width: 156px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 340px;
+      font-size: 23px;
+      text-decoration: none;
+      color: white;
+      background-color: #012030;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.5s;
+    }
+
+    .botonInicio:hover {
+      background-color: #13678A;
+      color: #012030;
+      border-radius: 10px 20px 10px 20px;
+    }
+
+    .contenido {
+      padding: 10px;
+      margin: 10px;
+      border-radius: 15px;
+      height: 100vh;
+    }
+
+    .busqueda {
+      padding: 50px;
+      Display: block;
+      margin: 10px;
+      border-radius: 15px;
+      height: 50vh;
+      background-color: rgba(104,101,103,0.24);
+      font-size: 35px; 
+    }
+
+    .BP1{
+      Display: inline-block;
+      margin-top: 23px;
+      margin-left: 10px;
+        
+    }
+
+    .BP2{
+      Display: flex;
+    }
+
+    .BP3{
+      list-style-type: none;
+      padding-right: 20px;
+    }
+
+.botonVuelos {
+      height: 55px;
+      width: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      background-color: #012030;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.5s;
+    }
+
+.botonAlojamientos {
+      height: 55px;
+      width: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      background-color: #012030;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.5s;
+    }
+
+.botonAutos {
+      height: 55px;
+      width: 58px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      background-color: #012030;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+.botonVuelos:hover {
+      background-color: #13678A;
+      color: #012030;
+      width: 120px;
+    }
+
+.botonAlojamientos:hover {
+      background-color: #13678A;
+      color: #012030;
+      width: 120px;
+    }
+
+.botonAutos:hover {
+      background-color: #13678A;
+      color: #012030;
+      width: 120px;
+    }
