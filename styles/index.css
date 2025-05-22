@@ -49,12 +49,19 @@
 
     .busqueda {
       padding: 50px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       Display: block;
       margin: 10px;
       border-radius: 15px;
-      height: 50vh;
-      background-color: rgba(104,101,103,0.24);
+      height: 60vh;
+      background-color: white;
       font-size: 35px; 
+    }
+
+    
+
+    h2{
+    font-weight: 400;
     }
 
     .BP1{
@@ -71,6 +78,7 @@
     .BP3{
       list-style-type: none;
       padding-right: 20px;
+      
     }
 
 .botonVuelos {
@@ -82,7 +90,7 @@
       text-decoration: none;
       color: white;
       font-size: 18px;
-      background-color: #45C4B0;
+      background: linear-gradient(to right, #45C4B0, #13678A);
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -98,7 +106,7 @@
       text-decoration: none;
       color: white;
       font-size: 18px;
-      background-color: #45C4B0;
+      background: linear-gradient(to right, #45C4B0, #13678A);
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -114,7 +122,7 @@
       text-decoration: none;
       color: white;
       font-size: 18px;
-      background-color: #45C4B0;
+      background: linear-gradient(to right, #45C4B0, #13678A);
       border: none;
       border-radius: 8px;
       cursor: pointer;
@@ -122,19 +130,127 @@
     }
 
 .botonVuelos:hover {
-      background-color: #13678A;
+      background: linear-gradient(to right, #13678A, #45C4B0);
       color: #012030;
       width: 120px;
     }
+
+.botonVuelos .texto {
+  display: none;
+}
+
+.botonVuelos:hover .icono {
+  display: none;
+}
+
+.botonVuelos:hover .texto {
+  display: inline;
+}
 
 .botonAlojamientos:hover {
-      background-color: #13678A;
+      background: linear-gradient(to right, #13678A, #45C4B0);
       color: #012030;
       width: 120px;
     }
 
+.botonAlojamientos .texto {
+  display: none;
+}
+
+.botonAlojamientos:hover .icono {
+  display: none;
+}
+
+.botonAlojamientos:hover .texto {
+  display: inline;
+}
+
 .botonAutos:hover {
-      background-color: #13678A;
+      background: linear-gradient(to right, #13678A, #45C4B0);
       color: #012030;
       width: 120px;
+    }
+
+.botonAutos .texto {
+  display: none;
+}
+
+.botonAutos:hover .icono {
+  display: none;
+}
+
+.botonAutos:hover .texto {
+  display: inline;
+}
+
+.selecViaje {
+  display: flex;
+}
+
+.iYv{
+  margin-top: 23px;
+  margin-right: 250px;
+  margin-left: 5px;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.flight-search {
+      display: flex;
+      align-items: center;
+      background-color: #E1EAF2;
+      margin-top: 23px;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      width: 1200px;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    select, input[type="datetime-local"], input[type="number"] {
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 16px;
+      font-size: 14px;
+    }
+
+    #Pasajeros{
+      width: 95px;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .icon {
+      font-size: 20px;
+    }
+
+    .search-btn {
+      background-color: #ff5a00;
+      border: none;
+      color: white;
+      padding: 12px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .search-btn:hover {
+      background-color: #e24e00;
+    }
+
+    .txtInfo{
+      font-weight: 200;
+      font-size: 18px;
+    }
+
+    #iconoOD{
+      margin-top: 25px;
+    }
+
+    #iconoSearch{
+      margin-left: 12px;
     }
