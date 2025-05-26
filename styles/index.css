@@ -45,6 +45,7 @@
       margin: 10px;
       border-radius: 15px;
       height: 100vh;
+      background-image: url("/JetGo/Images/fondo-seccion-busqueda.png");
     }
 
     .busqueda {
@@ -53,7 +54,7 @@
       Display: block;
       margin: 10px;
       border-radius: 15px;
-      height: 60vh;
+      height: 40vh;
       background-color: white;
       font-size: 35px; 
     }
@@ -62,6 +63,20 @@
 
     h2{
     font-weight: 400;
+    }
+
+    h3{
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 5px;
+    }
+
+    h4{
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 2px;
+    
+      margin-top: 5px;
     }
 
     .BP1{
@@ -254,3 +269,50 @@
     #iconoSearch{
       margin-left: 12px;
     }
+
+    .seccionTarjetas{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 50px;
+       
+
+    }
+
+.tarjetas {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.29) 0px 3px 8px;
+  margin: 50px 80px 0 10px;
+  border-radius: 20px;
+  height: 40vh;
+  width: 37vh;
+  background-color: white;
+  font-size: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.tarjetas:hover {
+  transform: scale(1.09);
+  box-shadow: rgba(0, 0, 0, 0.65) 0px 3px 8px;
+}
+
+#tarjeta1img {
+  height: 18vh;
+  width: 35vh;
+  margin: 1vh;
+  background-image: url('/JetGo/Images/bogota.jpg');
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.29) 0px 3px 8px;
+  margin-bottom: 1vh;
+}
+
+#tarjeta1txt { 
+  height: 19vh;
+  width: 33vh;
+  margin: 2vh;
+  padding: 8px;
+  background-color: white;
+  border-radius: 20px;
+}
