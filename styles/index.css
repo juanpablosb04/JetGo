@@ -3,6 +3,7 @@
       padding: 0;
       box-sizing: border-box;
       scroll-behavior: smooth;
+      font-family: "Inter", sans-serif;
     }
 
     .seccion_inicio {
@@ -66,7 +67,7 @@
     }
 
     h3{
-    font-weight: 800;
+    font-weight: 600;
     font-size: 28px;
     margin-top: 5px;
     }
