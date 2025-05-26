@@ -44,7 +44,7 @@
       padding: 10px;
       margin: 10px;
       border-radius: 15px;
-      height: 100vh;
+      height: 100%;
       background-image: url("/JetGo/Images/fondo-seccion-busqueda.png");
     }
 
@@ -308,7 +308,18 @@
   margin-bottom: 1vh;
 }
 
-#tarjeta1txt { 
+#tarjeta2img {
+  height: 18vh;
+  width: 35vh;
+  margin: 1vh;
+  background-image: url('/JetGo/Images/new_york-USA.jpg');
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.29) 0px 3px 8px;
+  margin-bottom: 1vh;
+}
+
+#tarjetastxt { 
   height: 19vh;
   width: 33vh;
   margin: 2vh;
