@@ -320,6 +320,28 @@
   margin-bottom: 1vh;
 }
 
+#tarjeta3img {
+  height: 18vh;
+  width: 35vh;
+  margin: 1vh;
+  background-image: url('/JetGo/Images/dublin_IRL.jpg');
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.29) 0px 3px 8px;
+  margin-bottom: 1vh;
+}
+
+#tarjeta4img {
+  height: 18vh;
+  width: 35vh;
+  margin: 1vh;
+  background-image: url('/JetGo/Images/valencia-ESP.jpg');
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.29) 0px 3px 8px;
+  margin-bottom: 1vh;
+}
+
 #tarjetastxt { 
   height: 19vh;
   width: 33vh;
