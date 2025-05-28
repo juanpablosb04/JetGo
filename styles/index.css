@@ -6,7 +6,7 @@
       font-family: "Inter", sans-serif;
     }
 
-    .seccion_inicio {
+    .hero {
       height: 100vh;
       background-image:             
         url('/JetGo/Images/index.png');
@@ -18,7 +18,7 @@
       align-items: center;
     }
 
-    .botonInicio {
+    .firstBottom {
       height: 65px;
       width: 226px;
       display: flex;
@@ -35,251 +35,14 @@
       transition: background-color 0.5s;
     }
 
-    .botonInicio:hover {
+    .firstBottom:hover {
       background-color: #13678A;
       color: #012030;
       border-radius: 20px 10px 20px 10px;
     }
 
-    .contenido {
-      padding: 10px;
-      margin: 10px;
-      border-radius: 15px;
-      height: 100%;
-      background-image: url("/JetGo/Images/fondo-seccion-busqueda.png");
-    }
-
-    .busqueda {
-      padding: 50px;
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      Display: block;
-      margin: 10px;
-      border-radius: 15px;
-      height: 40vh;
-      background-color: white;
-      font-size: 35px; 
-    }
-
+ /*
     
-
-    h2{
-    font-weight: 400;
-    }
-
-    h3{
-    font-weight: 600;
-    font-size: 28px;
-    margin-top: 5px;
-    }
-
-    h4{
-    font-weight: 300;
-    font-size: 18px;
-    margin-left: 2px;
-    
-      margin-top: 5px;
-    }
-
-    .BP1{
-      Display: inline-block;
-      margin-top: 23px;
-      margin-left: 10px;
-        
-    }
-
-    .BP2{
-      Display: flex;
-    }
-
-    .BP3{
-      list-style-type: none;
-      padding-right: 20px;
-      
-    }
-
-.botonVuelos {
-      height: 55px;
-      width: 58px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-      color: white;
-      font-size: 18px;
-      background: linear-gradient(to right, #45C4B0, #13678A);
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.5s;
-    }
-
-.botonAlojamientos {
-      height: 55px;
-      width: 58px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-      color: white;
-      font-size: 18px;
-      background: linear-gradient(to right, #45C4B0, #13678A);
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.5s;
-    }
-
-.botonAutos {
-      height: 55px;
-      width: 58px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-      color: white;
-      font-size: 18px;
-      background: linear-gradient(to right, #45C4B0, #13678A);
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.2s;
-    }
-
-.botonVuelos:hover {
-      background: linear-gradient(to right, #13678A, #45C4B0);
-      color: #012030;
-      width: 120px;
-    }
-
-.botonVuelos .texto {
-  display: none;
-}
-
-.botonVuelos:hover .icono {
-  display: none;
-}
-
-.botonVuelos:hover .texto {
-  display: inline;
-}
-
-.botonAlojamientos:hover {
-      background: linear-gradient(to right, #13678A, #45C4B0);
-      color: #012030;
-      width: 120px;
-    }
-
-.botonAlojamientos .texto {
-  display: none;
-}
-
-.botonAlojamientos:hover .icono {
-  display: none;
-}
-
-.botonAlojamientos:hover .texto {
-  display: inline;
-}
-
-.botonAutos:hover {
-      background: linear-gradient(to right, #13678A, #45C4B0);
-      color: #012030;
-      width: 120px;
-    }
-
-.botonAutos .texto {
-  display: none;
-}
-
-.botonAutos:hover .icono {
-  display: none;
-}
-
-.botonAutos:hover .texto {
-  display: inline;
-}
-
-.selecViaje {
-  display: flex;
-}
-
-.iYv{
-  margin-top: 23px;
-  margin-right: 250px;
-  margin-left: 5px;
-  font-weight: 200;
-  font-size: 25px;
-}
-
-.flight-search {
-      display: flex;
-      align-items: center;
-      background-color: #E1EAF2;
-      margin-top: 23px;
-      border-radius: 10px;
-      padding: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
-      width: 1200px;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    select, input[type="datetime-local"], input[type="number"] {
-      padding: 6px 10px;
-      border: 1px solid #ccc;
-      border-radius: 16px;
-      font-size: 14px;
-    }
-
-    #Pasajeros{
-      width: 95px;
-    }
-
-    .input-group {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .icon {
-      font-size: 20px;
-    }
-
-    .search-btn {
-      background-color: #ff5a00;
-      border: none;
-      color: white;
-      padding: 12px 15px;
-      border-radius: 10px;
-      cursor: pointer;
-    }
-
-    .search-btn:hover {
-      background-color: #e24e00;
-    }
-
-    .txtInfo{
-      font-weight: 200;
-      font-size: 18px;
-    }
-
-    #iconoOD{
-      margin-top: 25px;
-    }
-
-    #iconoSearch{
-      margin-left: 12px;
-    }
-
-    .seccionTarjetas{
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       padding: 50px;
-       
-
-    }
-
 .tarjetas {
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.29) 0px 3px 8px;
@@ -350,3 +113,5 @@
   background-color: white;
   border-radius: 20px;
 }
+
+*/
