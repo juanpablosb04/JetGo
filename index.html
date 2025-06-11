@@ -11,6 +11,36 @@
   <title>Documento</title>
 </head>
 <body>
+    <div>
+    <nav>
+        <ul>
+            <li><a href="#">JetGo</a></li>
+            <li><a href="#">Vuelos</a></li>
+            <li><a href="#">Autos</a></li>
+            <li><a href="#">Explora</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li onclick=showSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/></svg></a></li>
+        </ul>
+
+        <ul class="sidebar">
+            <li onclick=closeSidebar() ><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/></svg></a></li>
+            <li><a href="#">Vuelos</a></li>
+            <li><a href="#">Autos</a></li>
+            <li><a href="#">Explora</a></li>
+            <li><a href="#">Destinos</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'}
+
+        function closeSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'}
+    </script>
+    </div>
   <div class="hero">
   <a href="#contenido" class="firstButton">¡Viajar!</a>
 </div>
@@ -60,11 +90,6 @@
     <button class="btnMoreOptions"><i class="fa-solid fa-arrow-right"></i></button>
   </div>
 
-  
-
-
-  
-  
 </section>
 
 <script src="index.js"></script>
